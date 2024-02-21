@@ -7,7 +7,6 @@
    "scripts": {
              "start": "pm2 start lib/smd.js --attach --name Suhail",
              "stop": "pm2 stop Suhail",
-             "heroku-postbuild":"git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp && mv temp/.git .git"
    },
    "author": "TechInfo",
    "dependencies": { 
