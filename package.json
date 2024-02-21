@@ -6,7 +6,8 @@
    "license": "GPL-3.0",
    "scripts": {
              "start": "pm2 start lib/smd.js --attach --name Suhail",
-             "stop": "pm2 stop Suhail"             
+             "stop": "pm2 stop Suhail",
+             "heroku-postbuild":"git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp && mv temp/.git .git"
    },
    "author": "TechInfo",
    "dependencies": { 
@@ -66,6 +67,6 @@
    },
    "repository": {
              "type": "git",
-             "url": "git+https://github.com/SuhailTechIMd/Suhail-Md.git"
+             "url": "git+https://github.com/SuhailTechInfo/Suhail-Md.git"
    }
 }
