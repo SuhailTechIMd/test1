@@ -1,12 +1,12 @@
 {
-   "name": "suhail-md1",
+   "name": "suhail-md",
    "version": "1.2.8",
    "description": "Multi device whatsapp bot.",
    "main": "lib/smd.js",
    "license": "GPL-3.0",
    "scripts": {
-             "start": "pm2 start lib/smd.js --attach --name Suhails",
-             "stop": "pm2 stop Suhails"             
+             "start": "pm2 start lib/smd.js --attach --name Suhail",
+             "stop": "pm2 stop Suhail"             
    },
    "author": "TechInfo",
    "dependencies": { 
@@ -66,6 +66,6 @@
    },
    "repository": {
              "type": "git",
-             "url": "git+https://github.com/SuhailTechIMd/test1.git"
+             "url": "git+https://github.com/SuhailTechIMd/Suhail-Md.git"
    }
 }
