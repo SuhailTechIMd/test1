@@ -3,6 +3,7 @@
    "version": "1.2.8",
    "description": "Multi device whatsapp bot.",
    "main": "lib/smd.js",
+   "license": "GPL-3.0",
    "scripts": {
              "start": "pm2 start lib/smd.js --attach --name Suhails",
              "stop": "pm2 stop Suhails"             
@@ -65,10 +66,6 @@
    },
    "repository": {
              "type": "git",
-             "url": "git+https://github.com/SuhailTechIMd/Suhail-Md.git"
-   },
-   "bugs": {
-             "url": "https://github.com/SuhailTechIMd/Suhail-Md/issues"
-   },
-   "homepage": "https://github.com/SuhailTechIMd/Suhail-Md#readme"
+             "url": "git+https://github.com/SuhailTechIMd/test1.git"
+   }
 }
