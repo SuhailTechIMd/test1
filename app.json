@@ -3,6 +3,7 @@
   "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
   "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
   "success_url": "/suhail/",  
+  "stack" : "container",
   "env": {
     "PREFIX": {
       "description": "Enter your desired prefix for bot.",
